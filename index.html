@@ -50,7 +50,17 @@
             		</hgroup>
             		<p>Cet élément contient plusieurs éléments qui ont été simplifiés. Charset</p>
             		<p>Avant : <pre>&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"&gt;</pre> Après : <pre>&lt;meta charset="utf-8"&gt;</pre></p>
-            		<p>Stylesheet et Script sans type. Avant <pre></pre> Après <pre></pre></p>
+        		</section>
+        		<section>
+            		<hgroup>
+            			<h2>HTML5 : Éléments</h2>
+            			<h4>Head</h4>
+            		</hgroup>
+            		<p>Autant les éléments scripts et stylesheet se sont vu amélioré. Il est maintenant plus facile d'ajouter une feuille de style, car on peut omettre l'attribut type qui est implicite.</p>
+            		<p>
+            			Stylesheet <pre>&lt;LINK href="special.css" rel="stylesheet" /&gt;</pre> 
+            			Script <pre>&lt;script src="js/site.js" /&gt;</pre>
+            		</p>
         		</section>
         		<section>
             		<hgroup>
@@ -64,21 +74,21 @@
             			<h2>HTML5 : Éléments</h2>
             			<h4>Nav</h4>
             		</hgroup>
-            		<p></p>
+            		<p>La sémantique de l'élément NAV veut qu'on l'utilise pour aider à la navigation dans un site web. Par contre, ce n'est pas nécessairement la navigation pour tous le site, mais peut aussi servir à la navigation à l'intérieur d'un page comme par exemple une page de FAQ. </p>
         		</section>
         		<section>
             		<hgroup>
             			<h2>HTML5 - Nouveaux éléments</h2>
             			<h4>Section</h4>
             		</hgroup>
-            		<p></p>
+            		<p>L'élément Section regroupe d'autres éléments qui ont une relation sémantique entre elles. Par exemple, une partie d'une interface avec des tablatures ou une About page avec plusieurs sections. Chaque section peut avoir un Header et un Footer ainsi que d'autres éléments sémantiques. Si aucune relation entre les éléments, on utilise un Div.</p>
         		</section>
         		<section>
             		<hgroup>
             			<h2>HTML5 - Nouveaux éléments</h2>
             			<h4>Article</h4>
             		</hgroup>
-            		<p></p>
+            		<p>L'article c'est un contenu autonome d'une page. On pourrait le sortir de cette page pour le remettre dans une autre sans problème. Le côté indépendant est vraiment très important quand on veut utiliser cet élément. On peut penser à un billet, un commentaire, post de forum, article de journal.</p>
         		</section>
         		<section>
             		<hgroup>
@@ -102,7 +112,7 @@
 		<script>
 			Reveal.initialize({
     			// Display controls in the bottom right corner
-				controls: true,
+				controls: false,
 			
 				// Display a presentation progress bar
 				progress: true,
