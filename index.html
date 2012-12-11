@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<title>Aide mémoire HTML5 / CSS3</title>
+		
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+	</head>
+	<body>
+		<div class="reveal">
+    		<div class="slides"> 
+        		<section>
+        			<hgroup>
+        				<h1>Aide mémoire</h1>
+        				<h3>HTML5, CSS3 et Javascript</h3>
+        			</hgroup>
+        			<p>Par Sébastien Leclerc Lavallée</p>
+        			<p>Ceci est mon aide mémoire pour le cours <em>70-480 - Programming in HTML5 with JavaScript and CSS3</em> de Microsoft. Il sera remplis de code snippet, rappels, how to et définitions. Bonne lecture !</p>
+        		</section>
+        		<section>
+            		<hgroup>
+            			<h2>HTML5 : Éléments</h2>
+            			<h4>Doctype</h4>
+            		</hgroup>
+            		<p>Avec HTML5, il existe un nouveau doctype à utiliser, une version simplifiée. Dans la version HTML4 ou XHTML, le doctype était très long et compliqué. Maintenant, il suffit d'écrire : 
+            			<pre>&lt;!DOCTYPE html&gt;</pre>
+            		</p>
+        		</section>
+        		<section>
+            		<hgroup>
+            			<h2>HTML5 : Éléments</h2>
+            			<h4>HTML</h4>
+            		</hgroup>
+            		<p>On a ajouté un attribut à l'élément HTML pour simplifier la définition des métadonnées du site. Ainsi, on peut spécifier la langue du site avec :
+            			<pre>&lt;html lang="fr"&gt;</pre>
+            			pour avoir un site en français.
+            		</p>
+        		</section>
+        		<section>
+            		<hgroup>
+            			<h2>HTML5 : Éléments</h2>
+            			<h4>Head</h4>
+            		</hgroup>
+            		<p>Cet élément contient plusieurs éléments qui ont été simplifiés. Charset</p>
+            		<p>Avant : <pre>&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"&gt;</pre> Après : <pre>&lt;meta charset="utf-8"&gt;</pre></p>
+            		<p>Stylesheet et Script sans type. Avant <pre></pre> Après <pre></pre></p>
+        		</section>
+        		<section>
+            		<hgroup>
+            			<h2>HTML5 : Éléments</h2>
+            			<h4>Header</h4>
+            		</hgroup>
+            		<p>L'élément Header représente sémantiquement le début d'un regroupement d'informations ou de concepts. Ce n'est pas seulement pour l'entête de la page. Par exemple, elle peut servir pour regrouper les informations d'un billet d'un blogue : auteur, date, catégorie, etc.</p>
+        		</section>
+        		<section>
+            		<hgroup>
+            			<h2>HTML5 : Éléments</h2>
+            			<h4>Nav</h4>
+            		</hgroup>
+            		<p></p>
+        		</section>
+        		<section>
+            		<hgroup>
+            			<h2>HTML5 - Nouveaux éléments</h2>
+            			<h4>Section</h4>
+            		</hgroup>
+            		<p></p>
+        		</section>
+        		<section>
+            		<hgroup>
+            			<h2>HTML5 - Nouveaux éléments</h2>
+            			<h4>Article</h4>
+            		</hgroup>
+            		<p></p>
+        		</section>
+        		<section>
+            		<hgroup>
+            			<h2>HTML5 - Nouveaux éléments</h2>
+            			<h4>Aside</h4>
+            		</hgroup>
+            		<p></p>
+        		</section>
+        		<section>
+            		<hgroup>
+            			<h2>HTML5 - Nouveaux éléments</h2>
+            			<h4>Footer</h4>
+            		</hgroup>
+            		<p></p>
+        		</section>
+    		</div>
+		</div>
+			
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+		<script>
+			Reveal.initialize({
+    			// Display controls in the bottom right corner
+				controls: true,
+			
+				// Display a presentation progress bar
+				progress: true,
+			
+				// Push each slide change to the browser history
+				history: false,
+			
+				// Enable keyboard shortcuts for navigation
+				keyboard: true,
+			
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+				{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+				{ src: 'plugin/markdown/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+				{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+				{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+				{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+				{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				// { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+		</script>
+	</body>
+</html>
