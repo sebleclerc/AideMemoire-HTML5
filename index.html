@@ -78,38 +78,81 @@
         		</section>
         		<section>
             		<hgroup>
-            			<h2>HTML5 - Nouveaux éléments</h2>
+            			<h2>HTML5 : Éléments</h2>
             			<h4>Section</h4>
             		</hgroup>
             		<p>L'élément Section regroupe d'autres éléments qui ont une relation sémantique entre elles. Par exemple, une partie d'une interface avec des tablatures ou une About page avec plusieurs sections. Chaque section peut avoir un Header et un Footer ainsi que d'autres éléments sémantiques. Si aucune relation entre les éléments, on utilise un Div.</p>
         		</section>
         		<section>
             		<hgroup>
-            			<h2>HTML5 - Nouveaux éléments</h2>
+            			<h2>HTML5 : Éléments</h2>
             			<h4>Article</h4>
             		</hgroup>
             		<p>L'article c'est un contenu autonome d'une page. On pourrait le sortir de cette page pour le remettre dans une autre sans problème. Le côté indépendant est vraiment très important quand on veut utiliser cet élément. On peut penser à un billet, un commentaire, post de forum, article de journal.</p>
         		</section>
         		<section>
             		<hgroup>
-            			<h2>HTML5 - Nouveaux éléments</h2>
+            			<h2>HTML5 : Éléments</h2>
             			<h4>Aside</h4>
             		</hgroup>
-            		<p>Quelque chose.</p>
+            		<p>Représente une partie de la page qui est reliée à la page sans en faire partie. Par contre, il ne faut pas mettre du contenu de la page. On peut penser à un sidebar, liste de liens. L'élément aside n'est pas nécessairement sur le côté de la page. It's "aside" from the content but related.</p>
         		</section>
         		<section>
             		<hgroup>
-            			<h2>HTML5 - Nouveaux éléments</h2>
+            			<h2>HTML5 : Éléments</h2>
             			<h4>Footer</h4>
             		</hgroup>
-            		<p>La fin de la page.</p>
+            		<p>L'élément Footer est semblable à Header dans ce sens qu'il n'est pas nécessaire de l'avoir à la fin de la page. Il permet aussi de définir la fin d'une section.</p>
         		</section>
         		<section>
             		<hgroup>
-            			<h2>HTML5 - Nouveaux éléments</h2>
-            			<h4>Form</h4>
+            			<h2>HTML5 : Éléments</h2>
+            			<h4>Audio / Vidéo</h4>
             		</hgroup>
-            		<p>URL et email</p>
+            		<p>Ces deux éléments permettent de jouer des fichiers audio et vidéo sans logiciel complémentaire. Ils fournissent aussi une API qui permet de faire Play/Pause/VolumeUp/VolumeDown et plusieurs autres. Un élément Source à l'intérieur de chacun permet d'avoir plusieurs fichiers différents selon le support des fureteurs.</p>
+        		</section>
+        		<section>
+            		<hgroup>
+            			<h2>HTML5 : API</h2>
+            			<h4>Canvas</h4>
+            		</hgroup>
+            		<p>Permet de dessiner des formes à l'aide d'une API en javascript.
+            			<pre>&lt;canvas id="myCanvas" width="200" height="100"&gt;&lt;/canvas&gt;</pre>
+            			<pre>var c=document.getElementById("myCanvas");
+							var ctx=c.getContext("2d");
+							ctx.fillStyle="#FF0000";
+							ctx.fillRect(0,0,150,75);</pre></p>
+        		</section>
+        		<section>
+            		<hgroup>
+            			<h2>HTML5 : API</h2>
+            			<h4>Canvas</h4>
+            		</hgroup>
+            		<p>Voici d'autres instruction à faire : <br/>
+    				moveTo(x,y) defines the starting point of the line <br/>
+    				lineTo(x,y) defines the ending point of the line <br/>
+    				arc(x,y,r,start,stop) start = 0, stop = 2*Math.PI <br/>
+    				fillText(text,x,y) - Draws "filled" text on the canvas</br>
+    				strokeText(text,x,y) - Draws text on the canvas (no fill)
+					</p>
+        		</section>
+        		<section>
+            		<hgroup>
+            			<h2>HTML5 : API</h2>
+            			<h4>SVG - Scalable Vector Graphics</h4>
+            		</hgroup>
+            		<p>Les SVG sont fait à partir du HTML directement sans trop de modifications. Vecteurs graphiques définis par XML
+            		<pre>&lt;svg xmlns="http://www.w3.org/2000/svg" version="1.1"&gt;
+  						&lt;circle cx="100" cy="50" r="40" stroke="black"
+  							stroke-width="2" fill="red" /&gt;
+						&lt;/svg&gt;</pre></p>
+        		</section>
+        		<section>
+            		<hgroup>
+            			<h2>CSS3</h2>
+            			<h4>Canvas</h4>
+            		</hgroup>
+            		<p></p>
         		</section>
     		</div>
 		</div>
