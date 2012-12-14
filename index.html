@@ -44,24 +44,26 @@
             		</p>
         		</section>
         		<section>
-            		<hgroup>
-            			<h2>HTML5 : Éléments</h2>
-            			<h4>Head</h4>
-            		</hgroup>
-            		<p>Cet élément contient plusieurs éléments qui ont été simplifiés. Charset</p>
-            		<p>Avant : <pre>&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"&gt;</pre> Après : <pre>&lt;meta charset="utf-8"&gt;</pre></p>
-        		</section>
-        		<section>
-            		<hgroup>
-            			<h2>HTML5 : Éléments</h2>
-            			<h4>Head</h4>
-            		</hgroup>
-            		<p>Autant les éléments scripts et stylesheet se sont vu amélioré. Il est maintenant plus facile d'ajouter une feuille de style, car on peut omettre l'attribut type qui est implicite.</p>
-            		<p>
-            			Stylesheet <pre>&lt;LINK href="special.css" rel="stylesheet" /&gt;</pre> 
-            			Script <pre>&lt;script src="js/site.js" /&gt;</pre>
-            		</p>
-        		</section>
+					<section>
+						<hgroup>
+							<h2>HTML5 : Éléments</h2>
+							<h4>Head</h4>
+						</hgroup>
+						<p>Cet élément contient plusieurs éléments qui ont été simplifiés. Charset</p>
+						<p>Avant : <pre>&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"&gt;</pre> Après : <pre>&lt;meta charset="utf-8"&gt;</pre></p>
+					</section>
+					<section>
+						<hgroup>
+							<h2>HTML5 : Éléments</h2>
+							<h4>Head</h4>
+						</hgroup>
+						<p>Autant les éléments scripts et stylesheet se sont vu amélioré. Il est maintenant plus facile d'ajouter une feuille de style, car on peut omettre l'attribut type qui est implicite.</p>
+						<p>
+							Stylesheet <pre>&lt;LINK href="special.css" rel="stylesheet" /&gt;</pre> 
+							Script <pre>&lt;script src="js/site.js" /&gt;</pre>
+						</p>
+					</section>
+				</section>
         		<section>
             		<hgroup>
             			<h2>HTML5 : Éléments</h2>
@@ -112,30 +114,32 @@
             		<p>Ces deux éléments permettent de jouer des fichiers audio et vidéo sans logiciel complémentaire. Ils fournissent aussi une API qui permet de faire Play/Pause/VolumeUp/VolumeDown et plusieurs autres. Un élément Source à l'intérieur de chacun permet d'avoir plusieurs fichiers différents selon le support des fureteurs.</p>
         		</section>
         		<section>
-            		<hgroup>
-            			<h2>HTML5 : API</h2>
-            			<h4>Canvas</h4>
-            		</hgroup>
-            		<p>Permet de dessiner des formes à l'aide d'une API en javascript.
-            			<pre>&lt;canvas id="myCanvas" width="200" height="100"&gt;&lt;/canvas&gt;</pre>
-            			<pre>var c=document.getElementById("myCanvas");
-							var ctx=c.getContext("2d");
-							ctx.fillStyle="#FF0000";
-							ctx.fillRect(0,0,150,75);</pre></p>
-        		</section>
-        		<section>
-            		<hgroup>
-            			<h2>HTML5 : API</h2>
-            			<h4>Canvas</h4>
-            		</hgroup>
-            		<p>Voici d'autres instruction à faire : <br/>
-    				moveTo(x,y) defines the starting point of the line <br/>
-    				lineTo(x,y) defines the ending point of the line <br/>
-    				arc(x,y,r,start,stop) start = 0, stop = 2*Math.PI <br/>
-    				fillText(text,x,y) - Draws "filled" text on the canvas</br>
-    				strokeText(text,x,y) - Draws text on the canvas (no fill)
-					</p>
-        		</section>
+					<section>
+						<hgroup>
+							<h2>HTML5 : API</h2>
+							<h4>Canvas</h4>
+						</hgroup>
+						<p>Permet de dessiner des formes à l'aide d'une API en javascript.
+							<pre>&lt;canvas id="myCanvas" width="200" height="100"&gt;&lt;/canvas&gt;</pre>
+							<pre>var c=document.getElementById("myCanvas");
+								var ctx=c.getContext("2d");
+								ctx.fillStyle="#FF0000";
+								ctx.fillRect(0,0,150,75);</pre></p>
+					</section>
+					<section>
+						<hgroup>
+							<h2>HTML5 : API</h2>
+							<h4>Canvas</h4>
+						</hgroup>
+						<p>Voici d'autres instruction à faire : <br/>
+						moveTo(x,y) defines the starting point of the line <br/>
+						lineTo(x,y) defines the ending point of the line <br/>
+						arc(x,y,r,start,stop) start = 0, stop = 2*Math.PI <br/>
+						fillText(text,x,y) - Draws "filled" text on the canvas</br>
+						strokeText(text,x,y) - Draws text on the canvas (no fill)
+						</p>
+					</section>
+				</section>
         		<section>
             		<hgroup>
             			<h2>HTML5 : API</h2>
@@ -190,12 +194,41 @@
             		<p>Les éléments Block (display:block;) prennent tout l'espace disponible et on un saut de ligne avant et après. H1, P et DIV. Le Inline (display:inline;) est le contraire, ne prend pas pas tout l'espace disponible et ne force pas le saut de ligne. SPAN, A. Il est possible de changer le comportement des éléments grâce au CSS.</p>
         		</section>
         		<section>
-            		<hgroup>
-            			<h2>CSS3</h2>
-            			<h4>2D Transforms</h4>
-            		</hgroup>
-            		<p></p>
-        		</section>
+					<section>
+						<hgroup>
+							<h2>CSS3</h2>
+							<h4>2D Transforms</h4>
+						</hgroup>
+						<p>On peut appliquer plusieurs transformations à des éléments HTML :
+							<ul>
+								<li>translate()</li>
+								<li>rotate()</li>
+								<li>scale()</li>
+								<li>skew()</li>
+								<li>matrix() - all-in-one</li>
+							</ul></p>
+					</section>
+					<section>
+            			<hgroup>
+            				<h2>CSS3</h2>
+            				<h4>2D Transforms</h4>
+						</hgroup>
+						<p>Rotation : transform: rotate(30deg);</p>
+						<p>Déplacement : transform: translate(50px,100px);</p>
+						<p>Agrandi : transform: scale(2(x),4(y)); (Combien de fois plus gros, 1 = pareil)</p>
+						<p></p>
+					</section>
+					<section>
+						<hgroup>
+							<h2>CSS3</h2>
+							<h4>2D Transforms</h4>
+						</hgroup>
+						<p>Torsion : transform: skew(30deg,20deg);</p>
+						<p>Les éléments tournent selon l'axe X et Y.</p>
+						<p>Matrix : transform: matrix(0.866,0.5,-0.5,0.866,0,0);</p>
+						<p></p>
+					</section>
+				</section>
         		<section>
             		<hgroup>
             			<h2>CSS3</h2>
